@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative;
+    width: 892px;
+    height: 1386px;
+    font-family: "Microsoft YaHei";
+    border: 1px solid gray;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 0 44px;
+}
+/*头部*/    
+.container header {
+    position: relative;
+    width: 892px;
+    height: 61px;
+    border-bottom: 2px solid #938e8c;
+}
+.container header img {
+    width: 110px;
+    height: 61px;
+}
+.container header p {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+
+/*前面*/
+.top {
+    position: relative;
+    margin: 44px 0;
+}
+.top img {
+    width: 641px;
+    height: 301px;
+}
+.one_left {
+    width: 191px;
+    height: 301px;
+    position: absolute;
+    top:0 ;
+    background: #72a664; opacity: 0.5;
+}
+.one_right {
+    width: 191px;
+    height: 301px;
+    position: absolute;
+    right: 251px; top: 0;
+    background: #e1abc3; opacity: 0.5;
+}
+aside {
+    position: absolute;
+    width: 203px;
+    top: 0; right: 0;
+    border-top: 2px solid #cc8091;
+}
+aside h2 {
+    text-decoration: underline;
+    color: #000000;
+    line-height: 40px;
+    font-size: 24px;
+}
+aside > p {
+    font-size: 12px;
+    color: #676767;
+    font-family: "STKaiti";
+    margin-bottom: 10px;
+}
+.num {
+    font-size: 116px;
+    color: #75b86b;
+    font-style: italic;
+}
+.mark_1 {
+    display: inline-block;
+    font-size: 55px;
+    color: #cc8091;
+}
+.mark_2 {
+    display: inline-block;
+    font-size: 21px;
+    color: #cc8091;
+}
+.mark_3 {
+    display: inline-block;
+    font-size: 12px;
+    color: #cc8091;
+}
+/*中部*/
+.middle {
+    width: 641px;
+    margin: 10px 0;
+}
+.middle article {
+    float: left;
+    margin-right: 30px;
+	margin-bottom: 20px;
+}
+.bottom {
+    clear: both;
+}
+.what {
+    width:220px;
+}
+.what h2{
+	color: #418c59;
+}
+.when {
+    width: 190px;
+}
+.when h2{
+	color: #d2994f;
+}
+.how h2{
+	color: #cc7680;
+}
+.middle h2{
+	font-size: 16px;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+.how p{
+	color: #231815;
+	opacity:70%;
+	margin-bottom: 16px;
+}
+.how p span{
+	color: #cd4a48;
+	font-style:italic;
+}
+/*底部*/
+
+
+.left_bottom {
+    width: 415px;
+    margin-bottom: 30px;
+    float: left;
+}
+.lbtop {
+    border-bottom: 2px solid #11456b;
+}
+.lbtop p span {
+    font: italic bold 72px  "SimHei";
+    color: #f5e327;
+    margin-left: 15px;
+
+}
+.lbtop p {
+    font: bold 42px "SimHei";
+    color: #11456b;
+    margin-bottom: 16px;
+}
+.lbbottom  p span{
+	font-size: 70px;
+	color: #f5e327;
+	float: left;
+	padding: 20px 10px 30px 0;
+}
+.lbbottom p {
+    line-height: 16px;
+    padding-top: 20px;
+}
+.lbbottom img {
+    width: 150px;
+    float: right;
+    padding:15px;
+	width:300px;
+	height:250px;
+}
+
+/*底部右边*/
+.right_bottom {
+    width: 458px;
+    float: right;
+}
+.first_box img {
+    width: 458px;
+    height: 275px;
+}
+.first_box {
+    position: relative;
+    margin-top: 15px;
+}
+.first_box div {
+    background: black;
+    width: 458px;
+    height: 61px;
+    position: absolute;
+    bottom: 3px;
+    opacity: 0.5;
+}
+.first_box p{
+    position: absolute;
+    height: 44px;
+    border-left: 3px solid #72b16a;
+    bottom: 10px;
+    margin-left: 30px;
+    line-height: 44px;
+    padding-left: 20px;
+    font-style: italic;
+    color: greenyellow;
+}
+.first_box p span {
+    font-size: 26px;
+    color: white;
+    font-style: normal;
+    padding-right: 10px;
+}
+.last_box {
+    width:459px;
+	height: 318px;
+	background: #eeedd6;
+	margin-top: 40px; 
+    position: relative;
+}
+.last_box img {
+    width: 200px;
+}
+.last_box ul {
+    padding: 30px;
+    list-style: none;
+    font-size: 12px;
+}
+.last_box ul li span {/*绘制三角形*/
+     width: 0;
+	 height: 0;
+	 border-left:5px solid transparent;
+	 border-right: 5px solid transparent;
+	 border-bottom: 10px solid #10456b;
+	 display: inline-block;
+}
+.last_box p {
+    width: 230px;
+    height: 160px;
+    position: absolute;
+    bottom: 20px; right: 10px; left: 210px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 20px;    
+}
+.last_box p span {
+    color: red;
+    font-size: 60px;
+}
+/*尾部*/
+footer {
+    position: absolute;
+    width: 892px;
+    border-top: 2px solid black;
+    bottom: 0;
+    height: 50px;
+    text-align: right;
+}
+

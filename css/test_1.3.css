@@ -1,0 +1,34 @@
+
+* {
+    padding: 20px;
+    margin: 0;
+}
+.swap {
+    background: #eee;
+    border: 1px solid #999;
+    overflow: hidden;
+    zoom: 1;
+}
+/*左边栏*/
+.left {
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+}
+.left img {
+    width: 80px;
+    height: 80px;
+}
+.right {
+    float:right;
+    width: 120px;
+    border: 1px solid black;
+}
+.right img {
+    width: 80px;
+    height: 80px;
+}
+main {
+    border: 1px solid blue;
+    margin: 0 180px 0 260px;
+}
